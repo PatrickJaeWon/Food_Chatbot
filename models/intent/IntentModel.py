@@ -9,7 +9,6 @@ from tensorflow.keras.models import Model, load_model
 from tensorflow.keras import preprocessing
 
 #의도 분류 모델
-
 class IntentModel:
     def __init__(self, model_name, preprocess):
 
